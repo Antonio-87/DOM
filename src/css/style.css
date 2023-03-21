@@ -1,0 +1,31 @@
+h1 {
+    color: #e21717;
+    text-align: center;
+}
+
+.playing-field {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 500px;
+    height: 500px;
+}
+
+.place {
+    display: inline-block;
+    background-color: darkolivegreen;
+    width: 121px;
+    height: 121px;
+    border: 2px solid black ;
+    border-radius: 10%;
+
+}
+
+.visible {
+    display: none;
+}
+
+img {
+    width: 120px;
+    height: 120px;
+}
